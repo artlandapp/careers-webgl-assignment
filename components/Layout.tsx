@@ -3,7 +3,7 @@ import Head from "next/head";
 
 interface ILayoutProps {
   children?: ReactNode;
-  title?: string;
+  title: string;
 }
 
 const Layout: FunctionComponent<ILayoutProps> = ({ children, title }) => (
